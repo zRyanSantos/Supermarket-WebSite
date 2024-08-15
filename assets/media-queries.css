@@ -1,10 +1,33 @@
 @media screen and (min-width: 636px) {
     header {
+        justify-content: space-between;
         gap: 4rem;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
     }
     .banner img{
         max-width: 35rem;
     }
+    .intro-icon, .intro-icon img{
+        width: 8rem;
+    }
+    .intro-title{
+        font-size: .8rem;
+    }
+    .intro-desc {
+        font-size: .9rem;
+    }
+    .locations-desc, .contacts-content, .services-desc {
+        font-size: .7rem;
+    }
+    footer{
+        padding: 5rem 0 5rem 0;
+    }
+
 }
 
 @media screen and (min-width: 980px) {

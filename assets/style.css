@@ -12,8 +12,7 @@
         display: flex;
         flex-direction:row;
         align-items: center;
-        justify-content: space-between;
-        gap: 2rem;
+        justify-content: center;
         padding: 0 1rem 0 1rem; 
         height: 3.5rem;
         background-color: rgba(15,12,41,1);
@@ -66,7 +65,7 @@
     }
 
     .icons {
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
@@ -114,7 +113,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 22rem;
+        max-width: 18rem;
         border-radius: 2rem ;
     }
 
@@ -124,7 +123,7 @@
         justify-content: center;
         background-color: rgba(15,12,41,1);
         color: white;
-        padding: 5rem 0 5rem 0;
+        padding: 3rem 0 3rem 0;
     }
 
     .footer-content{
@@ -144,7 +143,7 @@
     }
 
     .intro-icon, .intro-icon img{
-        width: 8rem;
+        width: 6rem;
     }
 
     .intro-content {
@@ -159,11 +158,11 @@
 
     .intro-title {
         color: #0e86c5;
-        font-size: .8rem
+        font-size: .6rem
     }
 
     .intro-desc {
-        font-size: .9rem;
+        font-size: .5rem;
     }
 
     .footer-infos {
@@ -180,7 +179,7 @@
     }
 
     .locations-desc, .contacts-content, .services-desc {
-        font-size: .7rem;
+        font-size: .5rem;
     }
 
     .footer-locations p, .footer-contacts p, .footer-services p {
