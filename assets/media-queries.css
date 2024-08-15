@@ -1,5 +1,10 @@
 @media screen and (min-width: 636px) {
-
+    header {
+        gap: 4rem;
+    }
+    .banner img{
+        max-width: 35rem;
+    }
 }
 
 @media screen and (min-width: 980px) {
@@ -8,18 +13,11 @@
         justify-content: space-around;
         padding: 0;
     }
-
     .sections {
         display: flex;
     }
-    .content {
-        flex-direction: row;
-        margin: 10.2rem 0 10.2rem 0;
-    }
-    .banner {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .banner img{
+        max-width: 50rem;
     }
     .texts {
         max-width: 35rem;
@@ -28,9 +26,13 @@
     .footer-content{
         flex-direction: row;
         padding: 0;
-        gap: 10rem;
+        gap: 1rem;
     }
-    .footer-intro, .footer-infos {
+    .footer-intro {
+        padding: 1rem;
+        max-width: 25rem;
+    }
+    .footer-infos {
         max-width: 35rem;
         padding: 1rem;
     }
@@ -42,7 +44,9 @@
     }
 }
 
-@media screen and (min-width: 1490px) {
-
+@media screen and (min-width: 1150px) {
+    .footer-intro {
+        max-width: 35rem;
+    }
 
 }

@@ -13,8 +13,9 @@
         flex-direction:row;
         align-items: center;
         justify-content: space-between;
-        gap: 4rem;
+        gap: 2rem;
         padding: 0 1rem 0 1rem; 
+        height: 3.5rem;
         background-color: rgba(15,12,41,1);
     }
 
@@ -29,12 +30,15 @@
         opacity: 0.8;
     }
 
-    .header-icon img {
+    .header-title a {
         display: flex;
-        align-items: center;
         justify-content: center;
-        width: 7rem;
-    }
+        font-family: 'Bebas Neue';
+        color: #0e86c5;
+        font-size: 1.4rem;
+        text-decoration: none;
+        align-items: center;
+     }
 
     .sections {
         display: none;
@@ -49,16 +53,6 @@
         font-size: 1.2rem;
         list-style: none;
     }
-
-    /* .header-sections li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #0e86c5;
-        width: 8rem;
-        height: 3rem;
-        border-radius: 1rem;
-    } */
 
     .header-sections a {
         color: white;
@@ -93,64 +87,35 @@
 
     .content {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 6rem 0 6rem 0;
-    }
-
-    .beginning {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 10rem;
-    }
-
-    .banner {
-        display: none;
-        max-width: 35rem;
-    }
-
-    .banner img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 35rem;
-        max-width: 35rem;
-        border-radius: 2rem;
-    }
-
-    .texts {
-        display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        font-size: 2rem;
-        font-weight: bold;
-        max-width: 25rem;
-        margin: 0 1rem 0 1rem;
-        gap: 2rem;
+        margin: 2rem 0 2rem 0;
     }
 
-    .title h1 {
+    .logo {
         display: flex;
         justify-content: center;
-        font-family: "PT Serif", serif;
-        font-weight: bold;
-        font-size: 3rem;
-        text-wrap: balance;
-        line-height: 3.2rem;
-        color: rgb(223, 191, 111);
+        align-items: center;
+        height: 7rem;
     }
 
-    .description p {
+    .logo img {
+        width: 10rem;
+    }
+
+    .banner{
         display: flex;
         justify-content: center;
-        font-family: "Oswald", sans-serif;
-        font-weight: bold;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        text-wrap: balance;
-        color: white;
-        text-shadow: 0.625rem 1rem .75rem rgba(0, 0, 0, 0.2);
+        align-items: center;
+    }
+
+    .banner img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 22rem;
+        border-radius: 2rem ;
     }
 
     footer{
@@ -179,7 +144,6 @@
     }
 
     .intro-icon, .intro-icon img{
-        height: 6rem;
         width: 8rem;
     }
 
