@@ -21,11 +21,23 @@
     .intro-desc {
         font-size: .9rem;
     }
+    .intro-title, .intro-desc {
+        padding: 0 .5rem 0 .5rem;
+    }
     .locations-desc, .contacts-content, .services-desc {
         font-size: .7rem;
     }
     footer{
         padding: 5rem 0 5rem 0;
+    }
+    .footer-content {
+        align-items: center;
+    }
+    .locations-title, .contacts-title, .services-title {
+        font-size: .8rem;
+    }
+    .footer-contacts img {
+        width: 1.5rem;
     }
 
 }

@@ -129,7 +129,7 @@
     .footer-content{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         justify-content: space-around;
         padding: 1rem;
         gap: 2rem;
@@ -152,10 +152,6 @@
         gap: 1rem;
     }
 
-    .intro-title, .intro-desc {
-        padding: 0 .5rem 0 .5rem;
-    }
-
     .intro-title {
         color: #0e86c5;
         font-size: .6rem
@@ -175,7 +171,7 @@
 
     .locations-title, .contacts-title, .services-title {
         color: #0e86c5;
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     .locations-desc, .contacts-content, .services-desc {
@@ -218,7 +214,7 @@
     }
 
     .footer-contacts img {
-        width: 1.5rem;
+        width: 1rem;
     }
 
     .footer-contacts a {
