@@ -178,6 +178,16 @@
         font-size: .5rem;
     }
 
+    .locations-desc a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .locations-desc a:hover{
+        color: #0e86c5;
+        text-decoration: underline;
+    }
+
     .footer-locations p, .footer-contacts p, .footer-services p {
         display: flex;
         align-items: center;
