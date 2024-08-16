@@ -28,7 +28,7 @@
         font-size: .7rem;
     }
     footer{
-        padding: 5rem 0 5rem 0;
+        padding: 2rem 0 2rem 0;
     }
     .footer-content {
         align-items: center;
@@ -61,7 +61,7 @@
     .footer-content{
         flex-direction: row;
         padding: 0;
-        gap: 1rem;
+        gap: 7rem;
     }
     .footer-intro {
         padding: 1rem;
